@@ -16,7 +16,7 @@ const Contact = () => {
         </p>
 
         {/* form */}
-        <form className='px-8 lg:px-0 max-w-[600px] mx-auto flex flex-col space-y-6 mb-[46px]'>
+        <form netlify className='px-8 lg:px-0 max-w-[600px] mx-auto flex flex-col space-y-6 mb-[46px]'>
           <input className='form-control' type='text' placeholder='Full name' />
           <input
             className='form-control'
