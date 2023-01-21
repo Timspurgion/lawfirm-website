@@ -1,8 +1,5 @@
 import React from 'react';
 
-// import social
-import { social } from '../data';
-
 const Contact = () => {
   return (
     <section
@@ -33,15 +30,15 @@ const Contact = () => {
         </form>
 
         {/* social */}
-        <div className='flex items-center justify-between mx-auto max-w-[205px]'>
+        {/* <div className='flex items-center justify-between mx-auto max-w-[205px]'>
           {social.map((item, index) => {
             return (
               <a href='#' key={index}>
-                <img src={item.icon}></img>
+                <img src={item.icon} />
               </a>
             );
           })}
-        </div>
+        </div> */}
       </div>
     </section>
   );
